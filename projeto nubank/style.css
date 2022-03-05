@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+header{
+  background: darkviolet;
+}
+
+.caixa{
+  width: 940px;
+  position: relative;
+  margin: -8px auto;
+  padding: 20px 0 50px;
+  background:darkviolet;
+}
+
+h1 img{
+  position: relative;
+  right: 180px;
+  background: darkorchid;
+  max-width: 80px;
+  max-height: 80px;
+  width: auto;
+  height:auto;
+  padding: 20px 20px;
+  border-radius: 50%;
+
+}
+
+h2{
+  position: relative;
+  top: 30px;
+  right: 170px;
+  color: white;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+nav{
+  position: absolute;
+  top:50px;
+  right: -130px;
+}
+
+nav li{
+  display: inline;
+  margin: 0 0 0 10px;
+}
+
+.olho{
+  max-width: 50px;
+  max-height: 50px;
+  width: auto;
+  height:auto;
+  padding: 15px 10px;
+}
+
+.questao{
+  max-width: 50px;
+  max-height: 50px;
+  width: auto;
+  height:auto;
+  padding: 10px 10px;
+}
+
+.mail{
+  max-width: 40px;
+  max-height: 40px;
+  width: auto;
+  height:auto;
+  padding: 20px 10px;
+}
+
+main{
+  margin: 40px 70px auto;
+}
+
+main p{
+  display: inline;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+p span{
+  display: inline;
+  position: absolute;
+  right: 140px;
+  font-size: 25px;
+  color: gray;
+
+}
+
+main h1{
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.servico ul{
+  margin: 50px 0;
+  background: ;
+  padding: 50px 50px;
+}
+
+.servico li{
+  display: inline-block;
+  margin: 0 10px;
+  background: ;
+  padding: 40px 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+
+.servico p{
+  text-align: center;
+  font-size: 12px;
+  background: yellow;
+}
+
+.servico img{
+  max-width: 40px;
+  max-height: 40px;
+  width: auto;
+  height:auto;
+  background: pink;
+  padding: 10px 10px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 15px;
+}

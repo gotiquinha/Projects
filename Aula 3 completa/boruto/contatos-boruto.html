@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>BORUTO NEXT GENERATION</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="boruto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans+Condensed:wght@300&family=Rampart+One&family=Roboto:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans+Condensed:wght@300&family=Rampart+One&family=Roboto:wght@100&family=Space+Mono&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="caixa">
+        <h1><img class="imagem" src="boruto.jpg"></h1>
+        <nav>
+          <ul>
+            <li><a href="https://www.animesgratisbr.biz/d/assistir/1372/">Episódios</a></li>
+            <li><a href="https://www.youtube.com/watch?v=KSIR9nMFls8&t=531s">Playlist</a></li>
+            <li><a href="https://mangayabu.top/ler/boruto-capitulo-01-my33807/">Mangá</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <form>
+        <label for="nomesobrenome">Nome e Sobrenome</label>
+        <input type="text" class="input-padrao" id="nomesobrenome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" class="input-padrao" id="email" required placeholder="seuemail@dominio.com">
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" class="input-padrao" id="telefone" required placeholder="(XX) XXXXX-XXXX">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea rows="10" cols="70" class="input-padrao" id="mensagem" required></textarea>
+
+        <fieldset>
+          <legend>Como prefere o nosso contato?</legend>
+          <label for="radio-email"> E-mail<input type="radio" name="contato" value="email" id="radio-email"></label>
+          <label for="radio-telfone">Telefone<input type="radio" name="contato" value="telefone" id="radio-telefone"></label>
+          <label for="radio-whatsapp">Whatsapp<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Qual horário prefere acompahnar nossa promação?</legend>
+          <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+          </select>
+        </fieldset>
+
+        <label class="checkbox">Gostaria de receber nossas novidades por e-mail? <input type="checkbox" checked></label>
+
+        <input type="submit" value="Enviar formulário" class="enviar">
+      </form>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Episódios novos</th>
+                <th>Horário</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Segunda</td>
+                <td>8h às 20h</td>
+              </tr>
+
+              <tr>
+                <td>Quarta</td>
+                <td>8h às 20h</td>
+              </tr>
+
+              <tr>
+                <td>Sexta</td>
+                <td>8h às 20h</td>
+              </tr>
+            </tbody>
+          </table>
+    </main>
+
+    <footer>
+      <img src="folhabranca.png" width="50px" height="50px">
+      <p class="nome">Isabela - 2022</p>
+    </footer>
+
+  </body>
+</html>
